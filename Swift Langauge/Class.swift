@@ -24,6 +24,36 @@ myPost2.addComment()
 myPost2.addComment()
 print(myPost2.cnt)
 
+//Initializer
+class Employee {
+    var firstName = ""
+    var lastName = ""
+    var salaryYear = 0.000
+    init() {
+        firstName = "PANKAJ"
+        lastName = "KUMAR"
+        salaryYear = 24300000.000
+    }
+    init(firstName:String, lastName:String) {
+        self.firstName = firstName
+        self.lastName = lastName
+        self.salaryYear = 8100000.000
+    }
+    init(firstName:String, lastName:String, salaryYear:Double) {
+        self.firstName = firstName
+        self.lastName = lastName
+        self.salaryYear = salaryYear
+    } 
+}
+
+var e1 = Employee()
+var e2 = Employee(firstName: "VINIT", lastName: "KUMAR")
+var e3 = Employee(firstName: "SATYENDRA", lastName: "KUMAR", salaryYear: 2700000)
+
+print(e1.firstName)
+print(e2.firstName)
+print(e3.firstName)
+
 //inheritance
 
 class Car {
