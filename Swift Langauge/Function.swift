@@ -11,15 +11,15 @@ func sum(arg num1:Int,arg num2:Int) {
 sum(arg: 4,arg: 5)
 print("OR")
 func sub(num1:Int,num2:Int) {
-    print(num1 + num2)
+    print(num1 - num2)
 }
-sub(num1: 5,num2: 4)
+sub(num1: 10,num2: 1)
 
 print("Omit The argument label")
 func sub(_ num1:Int,_ num2:Int) {
-    print(num1 + num2)
+    print(num1 - num2)
 }
-sub(1,2)
+sub(5,2)
 
 print("With Paramater and Return Type Function")
 func multiply(_ a:Int,_ b:Int)->Int {
